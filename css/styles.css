@@ -485,4 +485,140 @@ footer p{
     max-width: 1000px;
 }
 
+/* RESPONSIVE DESIGN para MOVILES */
+
+@media screen and (max-width: 768px){
+
+    h1{
+        font-size: 2em;
+    }
+
+    header a{
+        padding: 10px;
+    }
+
+   .header__logo{
+    margin: 0;
+   } 
+
+   .header__nav{
+    margin: 0;
+    justify-content: space-evenly;
+    padding: 10px;
+    gap: 0
+   }
+
+   .item__span{
+    display: none;
+   }
+
+   .content__hero{
+    padding: 20px;
+   }
+
+   .content__hero p{
+    font-size: 1em;
+    line-height: normal;
+   }
+
+   .container__card{
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    }
+
+    .card img{
+        height: auto;
+    }
+
+    .card p{
+        font-size: 1em;
+    }
+
+    footer p{
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .page__nav{
+        display: none;
+    }
+
+    .tl__header{
+        margin: 0;
+        gap: 0;
+        background-color: rgba(0, 0, 0, 0.4);
+        margin: 2rem 0;
+    }
+
+    .tl__header img{
+        display: none;
+    }
+
+    .tl__header__detail h1 {
+        font-size: 2em;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .tl__header__detail h2 {
+        font-size: 1em;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .custom__tier__list__hsr{
+        padding: 10px;
+    }
+
+    .custom__tier__container{
+        width: -webkit-fill-available;
+        grid-template-columns: 33.3% 33.3% 33.3%;
+    }
+
+    .custom__header{
+        font-size: 0.8em;
+        padding: 10px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+
+    .custom__tier__burst{
+        display: block;
+    }
+
+    .gap-5{
+        gap: 0!important;
+    }
+
+    .img-fluid{
+        display: none;
+    }
+
+    .p-2{
+        padding: 2rem 0.5rem 0.5rem 0.5rem!important;
+    }
+
+    .mt-5{
+        margin-top: 0!important;
+    }
+
+    .secrets__hsr{
+        padding: 20px;
+    }
+
+    .secrets__title{
+        padding: 20px;
+    }
+
+    h2{
+        font-size: 2em;
+    }
+
+    .secrets__paragraph{
+        font-size: 1em;
+    }
+}
 
