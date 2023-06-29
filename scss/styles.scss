@@ -291,6 +291,7 @@ footer{
 .tl__header__detail h1{
     font-size: 3em;
     font-weight: bold;
+    margin-bottom: 20px;
 }
 
 .tl__header__detail h2{
@@ -558,7 +559,7 @@ footer{
         font-size: 2em;
         font-weight: bold;
         text-align: center;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 
     .tl__header__detail h2 {
@@ -621,3 +622,110 @@ footer{
     }
 }
 
+// ESTILOS PARA LA PAGINA DE PERSONAJES
+
+.char__main{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.char__filters{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.3rem;
+}
+
+.filters__style{
+    align-items: center;
+    background-color: #171716;
+    border: 0.1rem solid #5d5d5d;
+    border-radius: 0.6rem;
+    color: #f2f4f5;
+    column-gap: 0.2rem;
+    display: flex;
+    opacity: .7;
+    padding: 0.3rem;
+}
+
+.filters__size{
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.char__content{
+    flex-wrap: wrap;
+    max-width: 60rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    gap: 1rem;;
+}
+
+.char__content__detail{
+    align-items: stretch;
+    background-color: #242424;
+    border-radius: 0.6rem;
+    display: flex;
+    flex-direction: column;
+    transition: box-shadow .2s,-webkit-transform .2s;
+    transition: transform .2s,box-shadow .2s;
+    transition: transform .2s,box-shadow .2s,-webkit-transform .2s;
+    width: 5.5rem;
+}
+
+.content__detail__position{
+    position: relative;
+}
+
+.char__background__image{
+    border-top-left-radius: 0.6rem;
+    border-top-right-radius: 0.6rem;
+    min-height: 7.528rem;
+    width: 5.5rem;
+    background-size: contain;
+}
+
+.char__image{
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transition: background-size .4s;
+    border-top-left-radius: 0.6rem;
+    border-top-right-radius: 0.6rem;
+    min-height: 7.528rem;
+    width: 5.5rem;
+}
+
+.char__ico{
+    bottom: 0.4854rem;
+    position: absolute;
+    left: 0;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.char__ico2{
+    right: 0.2427rem;
+    bottom: 0.4854rem;
+    position: absolute;
+    height: 1.3rem;
+    width: 1.3rem;
+}
+
+.char__content__name{
+    align-self: center;
+    padding-bottom: 0.3rem;
+    display: inline-block;
+    line-height: normal;
+    overflow: hidden;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    font-size: 1rem;
+}
